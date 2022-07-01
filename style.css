@@ -1,0 +1,32 @@
+h1{
+    font-size: 54px;
+
+}
+h2{
+    font-size: 30px;
+}
+.name-color{
+    color: orange;
+}
+h2{
+    color:orange;
+
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin: 2%;
+    padding:2%;
+
+
+}
+.half-width img{
+    width:100%;
+}
+.link-button{
+    padding: 20px 30px;
+    text-decoration: none;
+    background-image: linear-gradient(orange, lightsalmon);
+    border-radius: 5px;
+    color:white;
+}
