@@ -1,44 +1,86 @@
 h1{
     font-size: 54px;
+    font-weight: 700;
 
 }
 h2{
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    color: orange
+}
+h4{
+    font-size: 20spx;
+    font-weight: 700;
+}
+P{
+    font-size: 14px;
 }
 .name-color{
     color: orange;
 }
-h2{
-    color:orange;
-
+body{
+    margin:0px;
+    height: 100vh;
 }
+
 .half-width{
-    width:40%;
+    width: 39%;
     float: left;
-    margin: 2%;
-    padding:2%;
-
-
+    margin: 3%;
+    padding: 2%;
 }
 .half-width img{
     width:100%;
 }
+section{
+    height: 450px;
+    padding-bottom: 100px;
+
+}
+#background-color{
+    background-image: linear-gradient(lightblue, lightsalmon);
+}
+
 .link-button{
-    padding: 20px 30px;
+    padding: 15px 25px;
     text-decoration: none;
     background-image: linear-gradient(orange, lightsalmon);
     border-radius: 5px;
     color:white;
+    font-weight: 700;
 }
-.top-banner{
-    background-image: url(images/top-banner2.png) ;
+#mid-level-color{
+    background-image: linear-gradient(rgb(223, 201, 156), rgb(255, 122, 244));
+}
+.single-experiance{
+    box-shadow: 10px 10px 40px grey;
+    box-shadow: 7px;
+    border-radius: 5px;
+    height: 60%;
+    background-color:white;
+}
+
+.Experiance-area{
+    background-image:url("images/exp-bg.png");
     background-repeat: no-repeat;
+    background-position: left;
+
 }
-section {
- height: 450px;
- padding-bottom: 100px;
- display: block;
+
+#full-stack{
+    border-left: 7px solid;
+    border-radius: 20px;
+    background-image: linear-gradient(180deg, rgb(120, 231, 233)green);
+    border-image-slice: 2;
 }
-body{
-    margin:0px
+
+#beginner-web{
+    border-left: 7px solid;
+    border-radius: 20px;
+    background-image:linear-gradient(180deg red lightgreen);
+    border-image-slice: 2;
+}
+footer{
+    text-align: center;
+    color:dimgrey;
 }
