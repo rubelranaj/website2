@@ -32,7 +32,7 @@ body{
     width:100%;
 }
 section{
-    height: 450px;
+    height: 500px;
     padding-bottom: 100px;
 
 }
@@ -55,7 +55,7 @@ section{
     box-shadow: 10px 10px 40px grey;
     box-shadow: 7px;
     border-radius: 5px;
-    height: 60%;
+    height: 62%;
     background-color:white;
 }
 
@@ -70,14 +70,14 @@ section{
     border-left: 7px solid;
     border-radius: 20px;
     background-image: linear-gradient(180deg, rgb(120, 231, 233)green);
-    border-image-slice: 2;
+    border-image-slice: 1;
 }
 
 #beginner-web{
     border-left: 7px solid;
     border-radius: 20px;
     background-image:linear-gradient(180deg red lightgreen);
-    border-image-slice: 2;
+    border-image-slice: 1;
 }
 footer{
     text-align: center;
